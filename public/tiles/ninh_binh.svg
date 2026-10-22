@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="rubyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+    <!-- Ninh Bình: Danh thắng Tràng An & Tháp Bái Đính -->
+    <circle cx="60" cy="60" r="50" fill="#ECFDF5"/>
+    <!-- Núi đá vôi xanh -->
+    <path d="M15 88 Q35 45 55 88 Z" fill="#047857"/>
+    <path d="M45 88 Q70 35 95 88 Z" fill="#065F46"/>
+    <!-- Tháp Bái Đính nhiều tầng -->
+    <path d="M72 88 L75 42 L81 42 L84 88 Z" fill="#B45309"/>
+    <path d="M70 75 H86 M71 62 H85 M73 50 H83" stroke="#FCD34D" stroke-width="2"/>
+    <circle cx="78" cy="38" r="2.5" fill="#F59E0B"/>
+  
+</svg>

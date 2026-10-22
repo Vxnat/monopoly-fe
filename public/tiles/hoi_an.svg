@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="rubyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+    <!-- Chùa Cầu Hội An & Đèn lồng -->
+    <circle cx="60" cy="60" r="50" fill="#FEF3C7"/>
+    <!-- Thân Chùa Cầu mái ngói cong -->
+    <path d="M24 78 Q60 62 96 78 L90 88 Q60 78 30 88 Z" fill="#991B1B"/>
+    <rect x="42" y="58" width="36" height="20" fill="#78350F" rx="2"/>
+    <path d="M36 58 Q60 46 84 58 Z" fill="#B91C1C"/>
+    <!-- 3 Đèn lồng treo rực rỡ -->
+    <circle cx="40" cy="72" r="4" fill="#EF4444"/>
+    <circle cx="60" cy="70" r="4.5" fill="#F59E0B"/>
+    <circle cx="80" cy="72" r="4" fill="#06B6D4"/>
+  
+</svg>

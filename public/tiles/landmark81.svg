@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="rubyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+    <!-- Tòa tháp chọc trời Landmark 81 vút cao -->
+    <circle cx="60" cy="60" r="50" fill="#0B132B" stroke="#38BDF8" stroke-width="2.5" filter="url(#glow)"/>
+    <!-- Khối bó tre nhiều tầng giật cấp -->
+    <rect x="48" y="58" width="24" height="32" fill="url(#cyanGrad)"/>
+    <rect x="52" y="40" width="16" height="26" fill="#0284C7"/>
+    <rect x="56" y="24" width="8" height="20" fill="#38BDF8"/>
+    <!-- Kim thu lôi đỉnh tháp xuyên mây -->
+    <line x1="60" y1="24" x2="60" y2="12" stroke="#FCD34D" stroke-width="2.5"/>
+    <circle cx="60" cy="11" r="2.5" fill="#EF4444"/>
+  
+</svg>
